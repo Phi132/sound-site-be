@@ -17,7 +17,7 @@ public class Login {
 	@Autowired
 	private iLogin loginSer;
 
-	@GetMapping("/login")
+	@GetMapping("/")
 	public String get() {
 		return "Thành Công";
 	}
